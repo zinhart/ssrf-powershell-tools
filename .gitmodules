@@ -1,0 +1,3 @@
+[submodule "CIDR-Modeling"]
+	path = CIDR-Modeling
+	url = https://github.com/zinhart/CIDR-Modeling.git
