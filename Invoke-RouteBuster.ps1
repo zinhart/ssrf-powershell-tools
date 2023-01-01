@@ -46,7 +46,7 @@ function Invoke-RouteBuster() {
   [String[]] $Methods = @('GET', 'POST'),
   [Parameter(Mandatory = $false, HelpMessage = 'Filter displayed status codes.')]
   [Int32[]] $DisplayFilter = @(204,401,403,404),
-  [Parameter(Mandatory = $false, HelpMessage = 'Filter displayed status codes.')]
+  [Parameter(Mandatory = $false, HelpMessage = 'Varying levels of output.')]
   [ValidateSet("v","vv","vvv",ErrorMessage="Verbosity not one of (v,vv,vvv)", IgnoreCase=$true)]
   [String] $Verbosity= "v"
   )
